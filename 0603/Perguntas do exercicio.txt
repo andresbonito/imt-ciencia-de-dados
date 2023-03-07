@@ -1,0 +1,22 @@
+Q1. Acesse os dados explore a estrutura básica dos dados de insurance.
+Q1.1 Qual o número de caso de seguro?
+Q1.2 Quantos atributos são numéricos?
+Q1.3 Há quantos valores diferentes para região?
+Q1.4 Qual a maior quantidade de filhos?
+
+Q2. Qual a quantidade de casos por região?
+
+Q3. Qual a média dos pagamentos (charges) efetuados?
+
+Q4. Qual a média dos pagamentos (charges) dos 10 maiores pagamentos efetuados?
+
+Q5. Calcule a distância interquartis dos pagamentos.
+Dica Empregue a função quantile() do Pandas e use IQR = Q3 - Q1.
+
+Q6. Empregue o valor IQR da questão anterior para verificar se existem outliers dos pagamentos.
+Dica outliers são dados fora do intervalo [Q1−1.5IQR,Q3+1.5IQR]
+
+Q7. Qual a média dos pagamentos efetuados para os 10 casos com menor idade dos segurados? Aqui, empregue a função nsmallest().
+
+Q8. Revise a questão anterior. De fato calculamos a média de todos os seguros de indivíduos com idade entre as 10 menores idades?
+Dica Verifique quantos indivíduos há com a menor idade
